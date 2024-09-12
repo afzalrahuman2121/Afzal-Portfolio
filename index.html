@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afzal Rahuman Portfolio</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>M Afzal Rahuman</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#internship">Internship</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <div class="profile">
+            <img src="images/profile_pic.jpeg" alt="Afzal Rahuman">
+            <h2>Data Science | Software Developer</h2>
+        </div>
+        <p>
+            I am a proactive IT graduate with a B.Tech in Information Technology, specializing in Python programming and web development. 
+            I recently completed a 4-month internship at Avasoft as a Data Science Intern, where I gained hands-on experience in SQL, Python, Azure Synapse, 
+            Databricks, SSIS, PostgreSQL, and the ETL process. I actively contributed to project documentation, including FRD and design documents. 
+            I am eager to leverage my skills and recent experiences to make a meaningful impact in the IT industry.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Selenium, Git, GitHub</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Figma, Django</li>
+            <li>ETL, Pandas, Apache Spark</li>
+            <li>PostgreSQL, Azure Synapse, SSIS</li>
+            <li>Power BI, FRD, Data Pipeline</li>
+            <li>SQL, API, Data Engineering</li>
+            <li>XML, Web Scraping, Documentation</li>
+            <li>ADLS, PySpark, Python, Jira</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <!-- Project Title Card 1 -->
+        <div class="project-card" onclick="openProjectPage('project.html')">
+            <h3>Unique Expense Manager (UEM)</h3>
+        </div>
+
+        <!-- Project Title Card 2 -->
+        <div class="project-card" onclick="openProjectPage('project2.html')">
+            <h3>SMART EXAM PREPARATION QUESTION PAPER GENERATION USING AI</h3>
+        </div>
+    </section>
+
+    <section id="internship" class="internship">
+        <h2>Internship</h2>
+        <!-- Internship Title Card -->
+        <div class="project-card" onclick="openProjectPage('internship.html')">
+            <h3>Data Science Intern @ Avasoft</h3>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: afzalrahuman07@gmail.com</p>
+        <p>Phone: +91 9884820853</p>
+        <p>Location: Chennai, India</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/afzal-rahuman/" style="color: white;">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/afzalrahuman2121" style="color: white;">GitHub Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Afzal Rahuman. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openProjectPage(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
