@@ -50,7 +50,7 @@ section {
 .profile h2 {
     font-size: 2rem;
 }
-.about, .skills, .projects, .internship, .contact {
+.about, .skills, .projects, .internship, .contact, .education {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     padding: 2rem;
@@ -202,4 +202,78 @@ footer {
 
 .internship-details ul li strong {
     color: #e6ff01; /* Gold color for highlighting */
+}
+
+
+
+/* Adjust body padding for mobile */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right,  #2c1b49, #9a4d58, #5c2b1d);
+    color: #fff;
+    line-height: 1.6;
+    padding: 1rem; /* Add padding for small screens */
+}
+
+/* Adjust header padding and font size */
+header {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 1.5rem 0; /* Reduce padding */
+}
+header h1 {
+    font-size: 2.5rem; /* Adjusted for mobile */
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+nav a {
+    font-size: 1rem; /* Reduced font size for mobile */
+    padding: 0.4rem 0.8rem;
+}
+
+/* Section padding for smaller screens */
+section {
+    padding: 1rem;
+}
+
+/* Profile image adjustments for mobile */
+.profile img {
+    width: 100px; /* Reduced size for mobile */
+}
+
+/* Adjust the project card layout on smaller screens */
+.project-card {
+    padding: 1rem;
+}
+
+/* Grid adjustments for mobile */
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+        gap: 10px;
+    }
+    .image-grid img {
+        height: 250px; /* Adjust height */
+    }
+
+    .image-grid-sep {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+        gap: 10px;
+    }
+    .image-grid-sep img {
+        height: 250px; /* Adjust height */
+    }
+}
+
+/* Internship section mobile adjustments */
+.internship-details h2 {
+    font-size: 1.8rem;
+}
+.internship-details p {
+    font-size: 1rem;
+}
+.internship-details ul li {
+    padding: 0.8rem;
 }
