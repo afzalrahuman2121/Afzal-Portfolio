@@ -250,13 +250,6 @@ section {
 
 /* Grid adjustments for mobile */
 @media (max-width: 768px) {
-    .image-grid {
-        grid-template-columns: 1fr; /* Single column for smaller screens */
-        gap: 10px;
-    }
-    .image-grid img {
-        height: 250px; /* Adjust height */
-    }
 
     .image-grid-sep {
         grid-template-columns: 1fr; /* Single column for smaller screens */
